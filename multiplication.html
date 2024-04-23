@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+</head>
+<body>
+    <input id="num1" type="text">
+    <button onclick="multiply()">solution</button>
+    <h1 id="result"></h1>
+</body>
+<script>
+    let result = document.getElementById("result")
+    function multiply() {
+        console.log(document.getElementById("num1").value);
+        for(let i=1; i<=12; i++){
+        result.innerHTML += `<h1> ${num1.value} * ${i} = ${num1.value * i}`;
+        }
+    }
+</script>
+</html>
